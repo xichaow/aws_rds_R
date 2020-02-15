@@ -1,6 +1,8 @@
 library(DBI)
 library(RMySQL)
 
+#Tricky thing is to setting connection rules in security groups.
+
 db_user <- 'admin'
 db_password <- ''
 db_name <- 'testdb'
